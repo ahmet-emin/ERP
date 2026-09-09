@@ -1,0 +1,27 @@
+# Tüm metin dosyalarını normalize et (depo LF, local OS'a göre)
+* text=auto
+
+# Python dosyaları için her zaman LF kullan
+*.py text eol=lf
+
+# Bash scriptleri / SQL / JS / JSX için LF sabitle
+*.sh text eol=lf
+*.sql text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+
+# Windows batch dosyaları CRLF kalsın
+*.bat text eol=crlf
+
+# İkili dosyaları normalize etme
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.db binary
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

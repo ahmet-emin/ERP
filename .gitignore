@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Frontend build and test output
+node_modules/
+dist/
+playwright-report/
+test-results/
+
+# Generated demo databases
+backend/data/demo_erp.db
+backend/data/.*.staging
+
+# Logs and OS/editor files
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local ERP source and development files (excluded from the public repository)
+/backend/
+/frontend/
+/src/
+/tools/
+/api_patch.diff
+/erp_kodlari.md
+/fix_api.py
+/fix_po_strings.py
+/full_simulation.py
+/modify_api.py
+/tablo.md
+/tablo.py
+/update_po_drawer.py
