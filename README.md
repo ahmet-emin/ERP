@@ -2,7 +2,7 @@
 
 SAP süreçlerinden esinlenerek geliştirilen; satın alma, üretim, satış, lojistik, finans, maliyet ve kalite süreçlerini tek uygulamada birleştiren tam yığın bir ERP prototipi.
 
-> Bu proje eğitim ve portföy amacıyla geliştirilmiş bir prototiptir. Production ortamında kullanılmak üzere güvenlik ve ölçeklenebilirlik sertleştirmeleri yapılmamıştır.
+> Bu proje, eğitim ve portföy amacıyla geliştirilmiş bir ERP prototipidir. Bu depo, projenin özelliklerini, iş süreçlerini ve ekran görüntülerini sunmak amacıyla hazırlanmıştır. Uygulamanın kaynak kodları ve veritabanı dosyaları bu depoda paylaşılmamaktadır.
 
 ## İçindekiler
 
